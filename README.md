@@ -42,7 +42,15 @@ $ forge snapshot
 ### Anvil
 
 ```shell
-$ anvil
+$ anvil \
+    --fork-url https://lb.drpc.org/ethereum/Avduh2iIjEAksBUYtd4wP1NUPObEnwYR76WEFhW5UfFk \
+    --fork-block-number 22943943 \
+    --port 8545 \
+    --host 0.0.0.0 \
+    --accounts 10 \
+    --balance 1000 \
+    --mnemonic "test test test test test test test test test test test junk" \
+    --block-time 12
 ```
 
 ### Deploy
